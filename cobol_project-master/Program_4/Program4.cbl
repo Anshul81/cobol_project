@@ -1,6 +1,6 @@
        identification division.
        program-id. program4.
-       author. Smit Patel. Devansh Patel.
+       
        date-written. 10/04/2020.
       * Description : Produce a detailed report of R type records
       *
