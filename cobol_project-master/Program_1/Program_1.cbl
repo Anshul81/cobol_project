@@ -1,6 +1,6 @@
        identification division.
        program-id. program1.
-       author. Smit Patel. Devansh Patel.
+       
        date-written. 2020-04-01.
       * Description: Editing the input records to ensure validity and
       *  seperate valid and invalid records into respective output
@@ -156,7 +156,7 @@
        procedure division.
        000-main.
       * Open files
-           open input input-file,
+           open input input-file
              output error-report-file, invalid-data-file,
              valid-data-file.
 
