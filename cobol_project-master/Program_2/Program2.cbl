@@ -1,6 +1,6 @@
        identification division.
        program-id. program2.
-       author. Smit Patel. Devansh Patel.
+       
        date-written. 2020-04-01.
       * Description: This program help in data splitting
       * and counting recourds. This program also output data files.
@@ -356,9 +356,9 @@
            move ws-false-cnst to ws-eof-flag.
       *
            open input input-file.
-           open output cct-report,
-               sl-record-file,
-               rr_file.
+           open output cct-report, sl-record-file, rr_file.
+               
+               
       *
            accept ws-sys-date from date.
            accept ws-sys-time from time.
@@ -373,10 +373,7 @@
 
            perform 300-output-summary.
       *
-           close input-file,
-               cct-report,
-               sl-record-file,
-               rr_file.
+           close input-file cct-report sl-record-file rr_file.
       *
            goback.
 
